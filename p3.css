@@ -1,0 +1,258 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.global-containerp3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #6969691a;
+}
+
+.containerp3{
+    width: 98%;
+    height: 90vh;
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+
+.box1{
+    width: 100%;
+    height: 14%;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    background-color: white;
+    border-radius: 0.5rem 0.5rem 0rem 0rem ;
+}
+.box2{
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid lightgray;
+    /* background-color: #5998ad08; */
+    background-color: #add8e659;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #7a7a7a;
+}
+.box10{
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    /* position: relative; */
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    color: #00adff;
+    align-items: center;
+}
+.box3{
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid lightgray;
+    /* background-color: #5998ad08; */
+    background-color: #add8e659;
+    display: flex;
+    justify-content: space-between;
+}
+.box4{
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid lightgray;
+    background-color: #5998ad08;
+}
+.box5{
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid lightgray;
+    background-color: #5998ad08;
+}
+.box6{
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid lightgray;
+    background-color: #5998ad08;
+}
+.box7{
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid lightgray;
+    background-color: #5998ad08;
+}
+
+.fa-gear{
+    color: #a19898;
+    margin-left: 1rem;
+}
+
+.c1{
+margin-left:  1rem;
+
+}
+.c2{
+    margin-left:  2.5rem;
+    color: black;
+
+}
+.c3{
+
+    margin-left: 19rem;
+    color: black;
+
+    /* text-align: end; */
+    /* color: rebeccapurple; */
+    /* position: absolute;
+    right: 200px; */
+}
+.c4{
+    font-weight: bold;
+color: black;
+    margin-right: 18rem;
+/* margin-left: 1rem;
+color: #00c4ff;
+font-weight: bold; */
+}
+.c5{
+    margin-left: 1rem;
+color: #00adff;
+font-weight: bold;
+}
+.c6{
+margin-left: 1rem;
+color: #7a7a7a;;
+}
+.c7{
+position: absolute;
+right: 150px;
+}
+.c8{
+    margin-left: 1rem;
+    color: #00adff;
+
+}
+/* 
+@media(max-width:768px){
+    .c3{
+        right: 50px;
+    }
+} */
+
+.c10{
+    margin-left: 21rem;
+}
+.c11{
+    margin-right: 14.7rem;
+}
+.c12{
+    margin-left: 18.3rem;
+
+}
+.c13{
+margin-right: 11rem;
+}
+.c14{
+    margin-left: 18rem;
+}
+.c15{
+    
+    margin-right: 14.7rem;}
+.c16{
+    margin-left: 19rem;
+}
+.c17{
+
+}
+.c18{
+    margin-right: 14.2rem;}
+.c19{
+
+}
+
+.c20{
+    margin-right: 14.3rem;
+    color: #7a7a7a;
+    font-weight: bold;
+}
+
+.fa-image{
+    color: #31768d;
+    border-radius: 50%;
+    background-color: #c4dde5;
+    padding: 10px;
+    margin-top: -14px;
+    border: solid 0.1px #8fadb7;
+    margin-right: 1rem;
+}
+.fa-t{
+    color: #31768d;
+    border-radius: 50%;
+    background-color: #c4dde5;
+    padding: 11px;
+    margin-top: -14px;
+    border: solid 0.1px #8fadb7;
+    margin-right: 1rem;
+}
+.fa-a{
+    color: #31768d;
+    border-radius: 50%;
+    background-color: #c4dde5;
+    padding: 11px;
+    margin-top: -14px;
+    border: solid 0.1px #8fadb7;
+    margin-right: 1rem;
+}
+.fa-file{
+    color: #31768d;
+    border-radius: 50%;
+    background-color: #c4dde5;
+    padding: 11px;
+    margin-top: -14px;
+    border: solid 0.1px #8fadb7;
+    margin-right: 1rem;
+}
+
+.btn-ajout{
+    color: #00adff;
+    border-color:#00adff ;
+    border-radius: 0.5rem;
+    height: 40px;
+    background-color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    
+}
+
+.btn-ajout:hover{
+    cursor: pointer;
+}
+
+
+.fa-plus{
+    margin-right: 10px;
+}
+
+.fix{
+    background-color: white;
+}
+.fix2{
+    background-color: #add8e62b;
+}
+
+.champ{
+    font-weight: bold;
+    padding-left: 1rem;
+}

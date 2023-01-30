@@ -39,7 +39,7 @@
     height: 12%;
     border-bottom: 1px solid lightgray;
     /* background-color: #5998ad08; */
-    background-color: #add8e659;
+    background-color: white;
     /* position: relative; */
     display: flex;
     justify-content: space-between;
@@ -249,7 +249,7 @@ margin-right: 11rem;
     background-color: white;
 }
 .fix2{
-    background-color: #add8e62b;
+    background-color: white;
 }
 
 .champ{
